@@ -29,6 +29,10 @@
 
 let product = prompt(`What would you like to buy?`)
 let quantity = prompt(`How many?`)
-let price = prompt(`Name your price!`)
+let askPrice = prompt(`Name your price!`)
 
-console.log(`Product: ${product}\nQty: ${quantity}\nTotal: ${(price + (price * 0.16))}`)
+let price = askPrice
+
+let finalPrice = parseInt((quantity * (price  + (price * 0.16))));
+
+console.log(`Product: ${product}\nQty: ${quantity}\nTotal: ${finalPrice}`)
