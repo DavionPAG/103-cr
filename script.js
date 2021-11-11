@@ -1,6 +1,6 @@
 let password = '********';
 let email = 'davion@mail.io';
-let name = 'Davion Garcia';
+let userName = 'Davion Garcia';
 let age = 28;
 let country = 'Japan';
 let salary = 12000;
@@ -21,7 +21,7 @@ let brand = 'Puma'
 
 document.write(
   `<div>
-    <li>Name: ${name}</li>
+    <li>Name: ${userName}</li>
     <li>Email: ${email}</li>
     <li>Password: ${password}</li>
     <li>Age: ${age}</li>
