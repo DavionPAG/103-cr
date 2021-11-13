@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 1.25rem;
+  width: fit-content;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;  
+  padding: 1.25rem;
+  font-size: larger;
+}
